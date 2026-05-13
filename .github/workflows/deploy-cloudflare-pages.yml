@@ -1,0 +1,51 @@
+# Deploy static site to Cloudflare Pages on every push to main.
+# Prerequisites:
+# 1. Create a Pages project in Cloudflare (Workers & Pages → Create → Connect to Git
+#    OR create an empty project and deploy only via this action).
+# 2. GitHub repo → Settings → Secrets → Actions:
+#    - CLOUDFLARE_API_TOKEN: API token with "Cloudflare Pages — Edit"
+#    - CLOUDFLARE_ACCOUNT_ID: from Cloudflare dashboard sidebar (Account ID)
+# 3. Set projectName below to match your Pages project name exactly.
+
+name: Deploy to Cloudflare Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: cloudflare-pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: lunai-home-page
+          directory: dist
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
