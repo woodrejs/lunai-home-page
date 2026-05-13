@@ -1,11 +1,14 @@
 # Deploy static site to Cloudflare Pages on every push to main.
-# Prerequisites:
-# 1. Create a Pages project in Cloudflare (Workers & Pages → Create → Connect to Git
-#    OR create an empty project and deploy only via this action).
-# 2. GitHub repo → Settings → Secrets → Actions:
-#    - CLOUDFLARE_API_TOKEN: API token with "Cloudflare Pages — Edit"
-#    - CLOUDFLARE_ACCOUNT_ID: from Cloudflare dashboard sidebar (Account ID)
-# 3. Set projectName below to match your Pages project name exactly.
+#
+# GitHub → Settings → Secrets and variables → Actions:
+#   Secrets:
+#     - CLOUDFLARE_API_TOKEN (Pages — Edit)
+#     - CLOUDFLARE_ACCOUNT_ID (Account overview → Account ID)
+#   Variables (not secrets):
+#     - CF_PAGES_PROJECT_NAME — must match the Pages project name exactly (Workers & Pages
+#       in Cloudflare dashboard: the project title / name in the list).
+#
+# The token and Account ID must belong to the same Cloudflare account as that project.
 
 name: Deploy to Cloudflare Pages
 
@@ -29,6 +32,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Check CF_PAGES_PROJECT_NAME
+        run: |
+          if [ -z "${{ vars.CF_PAGES_PROJECT_NAME }}" ]; then
+            echo "::error::Set repository variable CF_PAGES_PROJECT_NAME (Settings → Secrets and variables → Actions → Variables) to your Cloudflare Pages project name."
+            exit 1
+          fi
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -46,6 +56,6 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: lunai-home-page
+          projectName: ${{ vars.CF_PAGES_PROJECT_NAME }}
           directory: dist
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}

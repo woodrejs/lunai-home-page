@@ -1,19 +1,19 @@
-import { dirname, resolve } from 'node:path'
-import { fileURLToPath } from 'node:url'
 import { defineConfig } from 'vite'
 
-const __dirname = dirname(fileURLToPath(import.meta.url))
+// Wrangler on Cloudflare Pages parses this .js file with Esprima (no import.meta). Use paths
+// relative to project root instead of __dirname from import.meta.url.
 
 export default defineConfig({
+  plugins: [],
   base: './',
   build: {
     rollupOptions: {
       input: {
-        main: resolve(__dirname, 'index.html'),
-        about: resolve(__dirname, 'about/index.html'),
-        contact: resolve(__dirname, 'contact/index.html'),
-        terms: resolve(__dirname, 'terms/index.html'),
-        privacy: resolve(__dirname, 'privacy/index.html'),
+        main: 'index.html',
+        about: 'about/index.html',
+        contact: 'contact/index.html',
+        terms: 'terms/index.html',
+        privacy: 'privacy/index.html',
       },
     },
   },
