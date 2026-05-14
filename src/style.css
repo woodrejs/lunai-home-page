@@ -122,7 +122,7 @@ img {
   padding: 4px;
   box-sizing: border-box;
   border-radius: 8px;
-  background: var(--blue-900);
+  background: #6b90d5;
   overflow: hidden;
 }
 
@@ -353,6 +353,15 @@ main {
   width: 100%;
   max-width: 768px;
   margin-top: 8px;
+  border-radius: clamp(20px, 4vw, 32px);
+  overflow: hidden;
+}
+
+.hero-device > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: inherit;
 }
 
 .hero-device__stage {
