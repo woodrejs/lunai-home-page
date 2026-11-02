@@ -1,6 +1,9 @@
 import './style.css'
+import { initI18n } from './i18n.js'
 
 /** Store buttons: SVG paths inlined from @mui/icons-material (Apple, Android). */
+
+initI18n()
 
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   anchor.addEventListener('click', (e) => {

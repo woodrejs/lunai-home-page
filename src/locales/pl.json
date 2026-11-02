@@ -1,0 +1,117 @@
+{
+  "common": {
+    "skipToContent": "Przejdź do treści",
+    "language": "Język",
+    "brandHome": "Lunai — strona główna",
+    "navMain": "Menu główne",
+    "navPage": "Menu",
+    "home": "Start",
+    "about": "O projekcie",
+    "contact": "Kontakt",
+    "termsOfUse": "Regulamin",
+    "privacyPolicy": "Polityka prywatności",
+    "footerCopy": "© 2026 Wszelkie prawa zastrzeżone.",
+    "footerBrand": "© Lunai"
+  },
+  "meta": {
+    "home": {
+      "title": "Lunai App",
+      "description": "Lunai — prosta aplikacja do zapisywania i analizowania snów."
+    },
+    "about": {
+      "title": "O projekcie — Lunai",
+      "description": "Poznaj projekt Lunai"
+    },
+    "contact": {
+      "title": "Kontakt — Lunai",
+      "description": "Skontaktuj się z Lunai"
+    },
+    "terms": {
+      "title": "Regulamin — Lunai",
+      "description": "Regulamin aplikacji Lunai — konto, zasady korzystania i odpowiedzialność."
+    },
+    "privacy": {
+      "title": "Polityka prywatności — Lunai",
+      "description": "Polityka prywatności Lunai — administrator danych, cele przetwarzania, analityka, reklamy i Twoje prawa."
+    }
+  },
+  "home": {
+    "navFeatures": "Funkcje",
+    "navHowItWorks": "Jak to działa",
+    "navDownload": "Pobierz",
+    "pillVersion": "Wersja 1.0 jest już dostępna",
+    "heroTitleSans": "Odkryj świat swoich",
+    "heroTitleSerif": "snów",
+    "heroLede": "Prosta aplikacja do zapisywania i analizowania snów. Zauważ wzorce i znaczenia, które powtarzają się noc w noc.",
+    "storeAppStoreAria": "Pobierz z App Store",
+    "storePlayAria": "Pobierz z Google Play",
+    "storeLabel": "Pobierz w",
+    "heroScreenshotAlt": "Zrzut ekranu aplikacji Lunai na telefonie",
+    "featuresPill": "Najważniejsze funkcje",
+    "featuresTitleSans": "Wszystko, czego",
+    "featuresTitleSerif": "potrzebujesz",
+    "featuresSubtitle": "Trzy funkcje, które pomogą Ci lepiej zrozumieć swoje sny.",
+    "featureJournalTitle": "Dziennik snów",
+    "featureJournalDesc": "Zapisuj sny głosem lub tekstem tuż po przebudzeniu. Aplikacja sama przypisze im kategorie i tagi.",
+    "featurePatternTitle": "Analiza wzorców",
+    "featurePatternDesc": "Zobacz, co wraca w Twoich snach — motywy, symbole i emocje — dzięki analizie i czytelnym wykresom.",
+    "featureAiTitle": "Wizualizacje AI",
+    "featureAiDesc": "Zobacz swój sen na nowo: AI tworzy obrazy, które pomagają uchwycić nastrój i treść snu."
+  },
+  "about": {
+    "title": "O projekcie",
+    "p1": "To strona informacyjna aplikacji Lunai — zbudowana jako statyczna witryna (Vite), gotowa do wdrożenia na dowolnym hostingu.",
+    "p2": "Ten tekst możesz w każdej chwili podmienić na opis produktu lub firmy.",
+    "linkContact": "Przejdź do kontaktu →"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "p1": "Masz pytanie? Napisz do nas — poniżej znajdziesz adres e-mail (możesz go podmienić na własny).",
+    "email": "hello@example.com"
+  },
+  "terms": {
+    "s1Title": "1. Czym jest aplikacja?",
+    "s1Body": "Lunai to aplikacja, w której opisujesz sny, a sztuczna inteligencja generuje interpretacje i wizualizacje. Te treści mają charakter rozrywkowy i nie zastępują porady lekarza, psychologa ani innego specjalisty.",
+    "s2Title": "2. Kto może korzystać z aplikacji?",
+    "s2Body": "Aplikacja jest przeznaczona dla osób, które ukończyły 16 lat. Młodsze osoby mogą z niej korzystać wyłącznie za zgodą rodzica lub opiekuna prawnego. Zakładając konto, potwierdzasz, że spełniasz ten warunek.",
+    "s3Title": "3. Twoje konto",
+    "s3Body": "Do pełnego korzystania z aplikacji potrzebne jest konto. Podajesz adres e-mail, wybraną nazwę użytkownika i kraj. Dbaj o poufność loginu i hasła — nie udostępniaj ich innym. Jedno konto przypada na jednego użytkownika.",
+    "s4Title": "4. Zasady korzystania",
+    "s4Body": "Korzystaj z aplikacji zgodnie z prawem i tylko na własny użytek. Zabronione jest m.in.: publikowanie treści nielegalnych, obraźliwych lub naruszających cudze prawa; próby włamania na cudze konta lub do systemów aplikacji; automatyczne pobieranie danych (scraping); odsprzedaż lub udostępnianie dostępu do aplikacji innym odpłatnie.",
+    "s5Title": "5. Twoje sny i dane",
+    "s5Body": "Opisy snów, które dodajesz, należą do Ciebie. Przechowujemy je na serwerach w UE, żebyś mógł wracać do historii snów. Dajesz nam prawo je przetwarzać wyłącznie po to, by aplikacja działała. Szczegóły ochrony danych opisuje Polityka prywatności dostępna w aplikacji.",
+    "s6Title": "6. Odpowiedzialność",
+    "s6Body": "Nie gwarantujemy, że aplikacja będzie działać bez przerw, ani że wyniki AI będą w pełni trafne. Korzystasz z aplikacji na własną odpowiedzialność. Nie odpowiadamy za szkody pośrednie ani utracone korzyści. To nie odbiera Ci jednak praw wynikających z przepisów o ochronie konsumentów.",
+    "s7Title": "7. Zmiany i usunięcie konta",
+    "s7Body": "Konto możesz usunąć w każdej chwili w ustawieniach aplikacji. O istotnych zmianach Regulaminu poinformujemy Cię co najmniej 14 dni wcześniej — w aplikacji lub e-mailem. Jeśli po wejściu zmian w życie nadal korzystasz z aplikacji, uznajemy to za akceptację nowego Regulaminu.",
+    "s8Title": "8. Prawo właściwe i kontakt",
+    "s8BeforeEmail": "Do Regulaminu stosuje się prawo polskie. Pytania i reklamacje prosimy kierować na:",
+    "crossPrivacy": "Polityka prywatności →"
+  },
+  "privacy": {
+    "s1Title": "1. Kto jest administratorem danych?",
+    "s1BeforeEmail": "Administratorem Twoich danych osobowych jest twórca i operator aplikacji Lunai, z siedzibą w Polsce / Unii Europejskiej. W sprawach prywatności napisz do nas:",
+    "s2Title": "2. Jakie dane zbieramy i dlaczego?",
+    "s2P1": "Zbieramy tylko dane potrzebne do działania, zabezpieczenia i ulepszania Lunai. Mogą to być: adres e-mail (logowanie, kontakt, odzyskiwanie konta), nazwa użytkownika lub pseudonim, kraj lub region (jeśli go podasz — np. po to, by lepiej dopasować aplikację), a także opisy snów wraz z interpretacjami, analizami i wizualizacjami AI w historii Twojego konta.",
+    "s2P2": "Możemy też zbierać identyfikatory urządzenia, dane techniczne (model telefonu, wersja systemu, wersja aplikacji) oraz informacje o tym, z jakich ekranów i funkcji korzystasz. Służą one m.in. działaniu aplikacji, bezpieczeństwu, statystykom, ulepszaniu usługi oraz — tam, gdzie to dozwolone — pomiarowi skuteczności reklam.",
+    "s2P3": "Przetwarzamy dane na podstawie art. 6 ust. 1 lit. b RODO (umowa o świadczenie usługi), lit. f (nasz uzasadniony interes), lit. c (obowiązki prawne) lub — gdy wymaga tego prawo — Twojej zgody.",
+    "s3Title": "3. Analityka, reklamy i śledzenie",
+    "s3P1": "Korzystamy z narzędzi analitycznych, żeby zobaczyć, jak użytkownicy korzystają z aplikacji, poprawiać funkcje, wychwytywać błędy i planować rozwój.",
+    "s3P2": "Używamy Aptabase do statystyk produktowych: m.in. które funkcje są używane, jak aplikacja działa na różnych urządzeniach i jak szybko reaguje.",
+    "s3P3": "Możemy korzystać z TikTok SDK i powiązanych usług, aby mierzyć skuteczność kampanii reklamowych (np. skąd przyszła instalacja aplikacji) i analizować zdarzenia w aplikacji. W zależności od ustawień telefonu i udzielonych zgód TikTok może otrzymywać m.in. identyfikatory urządzenia, zdarzenia w aplikacji i dane techniczne.",
+    "s3P4": "Gdy wymaga tego Apple lub prawo, śledzenie włączamy dopiero po Twojej zgodzie — np. przez mechanizm App Tracking Transparency (ATT). Zgodę możesz w każdej chwili zmienić lub wycofać w ustawieniach urządzenia.",
+    "s4Title": "4. Gdzie przechowujemy dane i jak długo?",
+    "s4P1": "Dane trzymamy na serwerach w UE, o ile to możliwe. Część dostawców może przetwarzać je poza Europejskim Obszarem Gospodarczym — wtedy stosujemy zabezpieczenia przewidziane prawem, np. standardowe klauzule umowne.",
+    "s4P2": "Dane konta przechowujemy, dopóki konto jest aktywne, a po jego usunięciu — przez okres wymagany prawem lub potrzebny do dochodzenia roszczeń. Historia snów znika po trwałym usunięciu konta, chyba że przepisy wymagają dłuższego przechowywania.",
+    "s5Title": "5. Komu przekazujemy dane?",
+    "s5P1": "Dane udostępniamy wyłącznie zaufanym podmiotom, które pomagają nam utrzymywać i rozwijać aplikację: dostawcom hostingu i infrastruktury chmurowej, zewnętrznym dostawcom modeli AI (tylko w zakresie niezbędnym do interpretacji i wizualizacji snów), Aptabase (analityka), TikTok Technology Limited, TikTok Information Technologies UK Limited i podmiotom powiązanym (pomiar reklam i analityka), a także organom publicznym, gdy wymaga tego prawo.",
+    "s5P2": "Nie sprzedajemy Twoich danych osobowych i nie oddajemy ich innym w zamian za wynagrodzenie.",
+    "s6Title": "6. Twoje prawa",
+    "s6P1": "Przysługuje Ci m.in. prawo dostępu do danych, sprostowania, usunięcia, ograniczenia przetwarzania, przenoszenia danych oraz sprzeciwu wobec przetwarzania opartego na uzasadnionym interesie. Jeśli przetwarzamy dane na podstawie zgody, możesz ją wycofać w dowolnym momencie — bez wpływu na legalność przetwarzania sprzed wycofania.",
+    "s6BeforeUodo": "Skargę możesz też złożyć do Prezesa Urzędu Ochrony Danych Osobowych (",
+    "s6AfterUodo": "). Aby skorzystać z powyższych praw, napisz do nas przez aplikację lub na:",
+    "s7Title": "7. Zmiany polityki prywatności",
+    "s7Body": "O istotnych zmianach poinformujemy Cię co najmniej 14 dni wcześniej — w aplikacji lub e-mailem. Dalsze korzystanie z aplikacji po wejściu zmian w życie oznacza akceptację zaktualizowanej polityki.",
+    "crossTerms": "Regulamin →"
+  }
+}

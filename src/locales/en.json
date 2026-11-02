@@ -1,0 +1,117 @@
+{
+  "common": {
+    "skipToContent": "Skip to content",
+    "language": "Language",
+    "brandHome": "Lunai — home",
+    "navMain": "Main navigation",
+    "navPage": "Page navigation",
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "termsOfUse": "Terms of Use",
+    "privacyPolicy": "Privacy Policy",
+    "footerCopy": "© 2026 All rights reserved.",
+    "footerBrand": "© Lunai"
+  },
+  "meta": {
+    "home": {
+      "title": "Lunai App",
+      "description": "Lunai — a minimal app for recording and analyzing your dreams."
+    },
+    "about": {
+      "title": "About — Lunai",
+      "description": "About the Lunai project"
+    },
+    "contact": {
+      "title": "Contact — Lunai",
+      "description": "Contact — Lunai"
+    },
+    "terms": {
+      "title": "Terms of Use — Lunai",
+      "description": "Terms of Use for the Lunai dream journal app — account rules, acceptable use, and liability."
+    },
+    "privacy": {
+      "title": "Privacy Policy — Lunai",
+      "description": "Privacy Policy for the Lunai app — data controller, processing purposes, analytics, advertising attribution, retention, and your GDPR rights."
+    }
+  },
+  "home": {
+    "navFeatures": "Features",
+    "navHowItWorks": "How it works",
+    "navDownload": "Download",
+    "pillVersion": "Version 1.0 is now available",
+    "heroTitleSans": "Discover the world of your",
+    "heroTitleSerif": "dreams",
+    "heroLede": "A minimal app for recording and analyzing your dreams. Uncover hidden patterns and meanings in your nightly journeys.",
+    "storeAppStoreAria": "Get it on the App Store",
+    "storePlayAria": "Get it on Google Play",
+    "storeLabel": "Get it on",
+    "heroScreenshotAlt": "Screenshot of the Lunai app on a phone",
+    "featuresPill": "Key features",
+    "featuresTitleSans": "Everything you",
+    "featuresTitleSerif": "need",
+    "featuresSubtitle": "Three core features designed to help you unlock the mysteries of your dreams.",
+    "featureJournalTitle": "Dream journal",
+    "featureJournalDesc": "Capture dreams by voice or text as soon as you wake up. The app automatically categorizes and tags your entries.",
+    "featurePatternTitle": "Pattern analysis",
+    "featurePatternDesc": "Surface recurring themes, symbols, and emotions in your dreams with smart analysis and clear visualizations.",
+    "featureAiTitle": "AI visualizations",
+    "featureAiDesc": "See your dream in a new light with AI-generated visuals that turn your data into clear, engaging imagery."
+  },
+  "about": {
+    "title": "About",
+    "p1": "This site is a template: multi-page Vite, ready to deploy on any static host (e.g. GitHub Pages).",
+    "p2": "You can replace this text with a product or company description — the HTML structure and styles are intentionally simple.",
+    "linkContact": "Go to contact →"
+  },
+  "contact": {
+    "title": "Contact",
+    "p1": "Basic contact block — replace with a real email address or form.",
+    "email": "hello@example.com"
+  },
+  "terms": {
+    "s1Title": "1. What is the app?",
+    "s1Body": "Lunai is an app that lets you describe your dreams and receive automatically generated AI interpretations and visualizations. The generated content is for entertainment purposes only and does not constitute medical, psychological, or any other professional advice.",
+    "s2Title": "2. Who can use the app?",
+    "s2Body": "The app may be used by persons who are at least 16 years old. Younger individuals may use the app only with the consent of a parent or legal guardian. By creating an account, you confirm that you meet this requirement.",
+    "s3Title": "3. Your account",
+    "s3Body": "An account is required to access the full functionality of the app. You provide an email address, a username of your choice, and your country. Keep your login credentials confidential and do not share them with others. One account per user.",
+    "s4Title": "4. Usage rules",
+    "s4Body": "Use the app in accordance with applicable law and for personal purposes only. The following are prohibited: submitting illegal, offensive, or rights-infringing content; attempting to access other users' accounts or app systems; automated data collection (scraping); reselling or sublicensing access to the app.",
+    "s5Title": "5. Your dreams and data",
+    "s5Body": "Dream descriptions you submit remain yours. We store them on servers located in the EU to allow you to access your dream history. You grant us a license to process them solely for the purpose of operating the app. Data protection practices are described in a separate Privacy Policy available within the app.",
+    "s6Title": "6. Liability",
+    "s6Body": "We do not guarantee uninterrupted operation of the app or the accuracy of AI-generated results. You use the app at your own risk. We are not liable for indirect losses or lost profits. The above does not limit your statutory consumer rights.",
+    "s7Title": "7. Changes and account deletion",
+    "s7Body": "You may delete your account at any time from the app's settings. We will notify you of material changes to these Terms at least 14 days in advance via an in-app notification or email. Continued use of the app after the effective date of the changes constitutes acceptance of the updated Terms.",
+    "s8Title": "8. Governing law and contact",
+    "s8BeforeEmail": "These Terms are governed by Polish law. Please direct questions and complaints to:",
+    "crossPrivacy": "Privacy Policy →"
+  },
+  "privacy": {
+    "s1Title": "1. Who is the data controller?",
+    "s1BeforeEmail": "The controller of your personal data is the creator and operator of the Lunai app, based in Poland / the European Union. For privacy-related inquiries, you can contact us at:",
+    "s2Title": "2. What data do we collect and why?",
+    "s2P1": "We collect only the data necessary to provide, secure, personalize, analyze, and improve the Lunai service. This may include your email address for account identification, authentication, communication, and account recovery; your username or display name, which may be a pseudonym; your country or region, if provided, to improve localization and service quality; and dream descriptions together with AI-generated interpretations, analyses, and visualizations stored as part of your account history.",
+    "s2P2": "We may also collect device identifiers, technical information about your device and application environment, and information about how you interact with the app, such as screens viewed, features used, and actions performed. These data may be used for app functionality, analytics, security, service improvement, advertising attribution, campaign measurement, and marketing performance analysis.",
+    "s2P3": "Data is processed on the basis of Article 6(1)(b) GDPR (performance of a contract), Article 6(1)(f) GDPR (our legitimate interests), Article 6(1)(c) GDPR (legal obligations), or your consent where required by law.",
+    "s3Title": "3. Analytics, advertising attribution and tracking",
+    "s3P1": "We use analytics services to understand how users interact with the app, improve existing features, identify technical issues, and develop new functionality.",
+    "s3P2": "We use Aptabase to collect product analytics, including information about app usage, feature interactions, device characteristics, and application performance.",
+    "s3P3": "We may also use TikTok SDK and related services to measure the effectiveness of advertising campaigns, attribute app installs and conversions, improve marketing performance, and analyze app interaction events. Depending on your device settings, permissions, and consent choices, TikTok may receive information such as device identifiers, app interaction events, technical data, and other information required for attribution, analytics, and campaign measurement.",
+    "s3P4": "Where required by Apple or applicable law, tracking technologies are used only after obtaining the user's consent through the App Tracking Transparency (ATT) framework or another legally required consent mechanism. You can withdraw or change your tracking permission at any time in your device settings.",
+    "s4Title": "4. Where do we store data and for how long?",
+    "s4P1": "Servers are located within the EU where possible. Some service providers may process data outside the European Economic Area. In such cases, we rely on appropriate safeguards, such as standard contractual clauses or other mechanisms permitted under applicable data protection law.",
+    "s4P2": "Account data is retained for the duration of account activity and, following deletion, for the period required by law or necessary to establish, exercise, or defend legal claims. Dream history is deleted upon permanent account deletion, unless longer retention is required by law.",
+    "s5Title": "5. Who do we share data with?",
+    "s5P1": "Your data may be shared only with trusted service providers that help us operate, secure, analyze, and improve the app. These may include our cloud infrastructure and hosting providers; external AI model providers, only to the extent necessary to generate dream interpretations, analyses, and visualizations; Aptabase for product analytics and application performance monitoring; TikTok Technology Limited, TikTok Information Technologies UK Limited, and/or their affiliated companies for advertising attribution, campaign measurement, analytics, and marketing performance purposes; and public authorities where disclosure is required by applicable law.",
+    "s5P2": "We do not sell or rent your personal data.",
+    "s6Title": "6. Your rights",
+    "s6P1": "You have the right to access your data, rectify it, erase it, restrict processing, data portability, and object to processing based on legitimate interests. Where processing is based on your consent, you have the right to withdraw that consent at any time without affecting the lawfulness of processing carried out before withdrawal.",
+    "s6BeforeUodo": "You may also lodge a complaint with the President of the Polish Data Protection Authority (",
+    "s6AfterUodo": "). To exercise any of the above rights, please contact us through the app or at:",
+    "s7Title": "7. Changes to this Policy",
+    "s7Body": "We will notify you of material changes at least 14 days in advance via an in-app notification or email. Continued use of the app after the effective date of the changes constitutes acceptance of the updated Policy.",
+    "crossTerms": "Terms of Use →"
+  }
+}

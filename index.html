@@ -11,11 +11,11 @@
     <title>Lunai App</title>
   </head>
   <body data-page="home">
-    <a class="skip-link" href="#main">Skip to content</a>
+    <a class="skip-link" href="#main" data-i18n="common.skipToContent">Skip to content</a>
 
     <header class="top-nav" role="banner">
       <div class="top-nav__inner">
-        <a class="brand" href="./" aria-label="Lunai — home">
+        <a class="brand" href="./" data-i18n-aria-label="common.brandHome" aria-label="Lunai — home">
           <span class="brand__mark" aria-hidden="true">
             <img
               class="brand__logo"
@@ -28,11 +28,17 @@
           </span>
           <span class="brand__name">Lunai</span>
         </a>
-        <nav class="top-nav__links" aria-label="Page navigation">
-          <a href="#features">Features</a>
-          <a href="#how-it-works">How it works</a>
-          <a href="#download">Download</a>
-        </nav>
+        <div class="top-nav__end">
+          <nav class="top-nav__links" data-i18n-aria-label="common.navPage" aria-label="Page navigation">
+            <a href="#features" data-i18n="home.navFeatures">Features</a>
+            <a href="#how-it-works" data-i18n="home.navHowItWorks">How it works</a>
+            <a href="#download" data-i18n="home.navDownload">Download</a>
+          </nav>
+          <div class="lang-switch" role="group" data-i18n-aria-label="common.language" aria-label="Language">
+            <button type="button" data-lang="en">EN</button>
+            <button type="button" data-lang="pl">PL</button>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -42,23 +48,30 @@
         <div class="container hero">
           <p class="pill pill--hero">
             <span class="pill__dot pill__dot--amber" aria-hidden="true"></span>
-            <span>Version 1.0 is now available</span>
+            <span data-i18n="home.pillVersion">Version 1.0 is now available</span>
           </p>
 
           <h1 class="hero__title">
             <span class="hero__title-row">
-              <span class="hero__title-sans">Discover the world of your</span>
-              <span class="hero__title-serif">dreams</span>
+              <span class="hero__title-sans" data-i18n="home.heroTitleSans">Discover the world of your</span>
+              <span class="hero__title-serif" data-i18n="home.heroTitleSerif">dreams</span>
             </span>
           </h1>
 
-          <p class="hero__lede">
+          <p class="hero__lede" data-i18n="home.heroLede">
             A minimal app for recording and analyzing your dreams. Uncover hidden patterns and meanings in your
             nightly journeys.
           </p>
 
           <div class="store-row" id="download">
-            <a class="store-btn" href="#" aria-label="Get it on the App Store">
+            <a
+              class="store-btn"
+              href="https://apps.apple.com/us/app/lunai-dream-interpretation-ai/id6766067326"
+              rel="noopener noreferrer"
+              target="_blank"
+              data-i18n-aria-label="home.storeAppStoreAria"
+              aria-label="Get it on the App Store"
+            >
               <span class="store-btn__icon" aria-hidden="true">
                 <!-- Icon path: @mui/icons-material Apple (Apache-2.0) -->
                 <svg class="store-btn__svg" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
@@ -69,11 +82,17 @@
                 </svg>
               </span>
               <span class="store-btn__text">
-                <span class="store-btn__label">Get it on</span>
+                <span class="store-btn__label" data-i18n="home.storeLabel">Get it on</span>
                 <span class="store-btn__name">App Store</span>
               </span>
             </a>
-            <a class="store-btn" href="#" aria-label="Get it on Google Play">
+            <!-- TEMPORARY: Google Play — remove class store-btn--google-play from CSS when link is ready -->
+            <a
+              class="store-btn store-btn--google-play"
+              href="#"
+              data-i18n-aria-label="home.storePlayAria"
+              aria-label="Get it on Google Play"
+            >
               <span class="store-btn__icon" aria-hidden="true">
                 <!-- Icon path: @mui/icons-material Android (Apache-2.0) -->
                 <svg class="store-btn__svg" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
@@ -84,14 +103,20 @@
                 </svg>
               </span>
               <span class="store-btn__text">
-                <span class="store-btn__label">Get it on</span>
+                <span class="store-btn__label" data-i18n="home.storeLabel">Get it on</span>
                 <span class="store-btn__name">Google Play</span>
               </span>
             </a>
           </div>
 
           <div class="hero-device" id="how-it-works">
-            <img src="./assets/images/Shot.png" alt="Screenshot of the Lunai app on a phone" loading="eager" decoding="async" />
+            <img
+              src="./assets/images/Shot.png"
+              data-i18n-alt="home.heroScreenshotAlt"
+              alt="Screenshot of the Lunai app on a phone"
+              loading="eager"
+              decoding="async"
+            />
         </div>
       </div>
 
@@ -100,16 +125,16 @@
           <div class="features__intro">
             <p class="pill pill--section">
               <span class="pill__dot pill__dot--blue" aria-hidden="true"></span>
-              <span>Key features</span>
+              <span data-i18n="home.featuresPill">Key features</span>
             </p>
 
             <h2 class="features__title" id="features-heading">
               <span class="features__title-row">
-                <span class="features__title-sans">Everything you</span>
-                <span class="features__title-serif">need</span>
+                <span class="features__title-sans" data-i18n="home.featuresTitleSans">Everything you</span>
+                <span class="features__title-serif" data-i18n="home.featuresTitleSerif">need</span>
               </span>
             </h2>
-            <p class="features__subtitle">
+            <p class="features__subtitle" data-i18n="home.featuresSubtitle">
               Three core features designed to help you unlock the mysteries of your dreams.
             </p>
           </div>
@@ -129,8 +154,8 @@
                   />
                 </svg>
               </div>
-              <h3 class="feature-card__title">Dream journal</h3>
-              <p class="feature-card__desc">
+              <h3 class="feature-card__title" data-i18n="home.featureJournalTitle">Dream journal</h3>
+              <p class="feature-card__desc" data-i18n="home.featureJournalDesc">
                 Capture dreams by voice or text as soon as you wake up. The app automatically categorizes and tags
                 your entries.
               </p>
@@ -157,8 +182,8 @@
                   />
                 </svg>
               </div>
-              <h3 class="feature-card__title">Pattern analysis</h3>
-              <p class="feature-card__desc">
+              <h3 class="feature-card__title" data-i18n="home.featurePatternTitle">Pattern analysis</h3>
+              <p class="feature-card__desc" data-i18n="home.featurePatternDesc">
                 Surface recurring themes, symbols, and emotions in your dreams with smart analysis and clear
                 visualizations.
               </p>
@@ -180,8 +205,8 @@
                   />
                 </svg>
               </div>
-              <h3 class="feature-card__title">AI visualizations</h3>
-              <p class="feature-card__desc">
+              <h3 class="feature-card__title" data-i18n="home.featureAiTitle">AI visualizations</h3>
+              <p class="feature-card__desc" data-i18n="home.featureAiDesc">
                 See your dream in a new light with AI-generated visuals that turn your data into clear, engaging
                 imagery.
               </p>
@@ -197,7 +222,7 @@
     <footer class="site-footer">
       <div class="container site-footer__inner">
         <div class="site-footer__left">
-          <a class="brand brand--footer" href="./" aria-label="Lunai — home">
+          <a class="brand brand--footer" href="./" data-i18n-aria-label="common.brandHome" aria-label="Lunai — home">
             <span class="brand__mark" aria-hidden="true">
               <img
                 class="brand__logo"
@@ -210,11 +235,11 @@
             </span>
             <span class="brand__name">Lunai</span>
           </a>
-          <p class="site-footer__copy">© 2026 All rights reserved.</p>
+          <p class="site-footer__copy" data-i18n="common.footerCopy">© 2026 All rights reserved.</p>
         </div>
         <div class="site-footer__links">
-          <a href="./terms/">Terms of Use</a>
-          <a href="./privacy/">Privacy Policy</a>
+          <a href="./terms/" data-i18n="common.termsOfUse">Terms of Use</a>
+          <a href="./privacy/" data-i18n="common.privacyPolicy">Privacy Policy</a>
         </div>
       </div>
     </footer>
