@@ -16,7 +16,11 @@
   --font: 'Outfit', system-ui, sans-serif;
 }
 
-body:has(.shell) {
+html:not(.i18n-ready) body {
+  visibility: hidden;
+}
+
+body {
   margin: 0;
   min-height: 100svh;
   font-family: var(--font);
@@ -26,7 +30,7 @@ body:has(.shell) {
   background: var(--bg);
 }
 
-.shell .skip-link {
+.skip-link {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -38,7 +42,7 @@ body:has(.shell) {
   border: 0;
 }
 
-.shell .skip-link:focus {
+.skip-link:focus {
   position: fixed;
   top: 12px;
   left: 12px;
@@ -152,7 +156,7 @@ body:has(.shell) {
   border-bottom-color: var(--accent);
 }
 
-.shell .main {
+.main {
   flex: 1;
   padding-top: 48px;
 }
@@ -237,7 +241,7 @@ body:has(.shell) {
   text-decoration: underline;
 }
 
-.shell .site-footer {
+.site-footer {
   margin-top: 64px;
   padding-top: 24px;
   border-top: 1px solid var(--border);
@@ -256,7 +260,7 @@ body:has(.shell) {
     justify-content: space-between;
   }
 
-  .shell .main {
+  .main {
     padding-top: 36px;
   }
 }

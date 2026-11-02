@@ -36,7 +36,8 @@
     }
   },
   "home": {
-    "navFeatures": "Co potrafi",
+    "navFeatures": "Funkcje",
+    "navHowItWorks": "Jak to działa",
     "navDownload": "Pobierz",
     "pillVersion": "Wersja 1.0 jest już dostępna",
     "heroTitleSans": "Odkryj świat swoich",
