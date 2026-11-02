@@ -1,20 +1,9 @@
 import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
-// Wrangler on Cloudflare Pages parses this .js file with Esprima (no import.meta). Use paths
-// relative to project root instead of __dirname from import.meta.url.
+// Wrangler on Cloudflare Pages parses this file with Esprima (no import.meta).
 
 export default defineConfig({
-  plugins: [],
-  base: './',
-  build: {
-    rollupOptions: {
-      input: {
-        main: 'index.html',
-        about: 'about/index.html',
-        contact: 'contact/index.html',
-        terms: 'terms/index.html',
-        privacy: 'privacy/index.html',
-      },
-    },
-  },
+  plugins: [react()],
+  base: '/',
 })
